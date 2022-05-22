@@ -4,7 +4,7 @@ const tasks = require("./Routes/tasksRouter");
 const connectDB = require("./Database/Connect");
 require("dotenv").config();
 const notFound = require("./middleware/notFound");
-const Ports = 3000;
+const Ports = 3001;
 
 app.use(express.json());
 app.use(express.static("./public"));
